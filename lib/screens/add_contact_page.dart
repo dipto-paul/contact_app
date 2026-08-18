@@ -32,7 +32,7 @@ class _AddContactPageState extends State<AddContactPage> {
   GlobalKey<FormState>();
 
 
-  // Save Contact
+
   Future<void> saveContact() async {
 
     // Validate form
@@ -40,7 +40,7 @@ class _AddContactPageState extends State<AddContactPage> {
       return;
     }
 
-    // Create Contact Object
+
     Contact contact = Contact(
       name: nameController.text.trim(),
       phone: phoneController.text.trim(),
