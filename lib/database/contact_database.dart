@@ -12,6 +12,7 @@ class ContactDatabase {
 
     if (_database != null) {
       return _database!;
+
     }
 
     String databasePath = await getDatabasesPath();
