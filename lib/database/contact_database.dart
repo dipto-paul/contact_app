@@ -10,6 +10,8 @@ class ContactDatabase {
 
   static Future<Database> getDatabase() async {
 
+
+
     if (_database != null) {
       return _database!;
 
