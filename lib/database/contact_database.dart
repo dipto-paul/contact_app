@@ -19,6 +19,7 @@ class ContactDatabase {
 
     String databasePath = await getDatabasesPath();
 
+
     String path = join(
       databasePath, 'contact_database.db',
     );
